@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULIR PEMESANAN</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 align="center">FORMULIR PEMESANAN TAS</h1>
+    <form action="konfirmasi.html">
+        <fieldset>
+            <label for="nama">NAMA PEMESAN</label>
+            <input type="text" name="nama" id="nama" required autofocus>
+            <br><br>
+
+            <label for="alamat">ALAMAT PENGIRIMAN</label>
+            <textarea name="alamat" id="alamat" cols="20"></textarea>
+            <br><br>
+
+            <label for="nomor">NOMOR TELEPON</label>
+            <input type="text" name="nOmor" id="nnomor" placeholder="Masukan Nomor anda">
+            <br><br>
+
+            <label for="pesan">TANGGAL PEMESANAN</label>
+            <input type="date" name="pemesanan" id="sewa">
+            <br><br>
+
+            <label for="pengembalian">TANGGAL PENGIRIMAN</label>
+            <input type="date" name="pengembalian" id="pengembalian">
+            <br><br>
+
+            <label for="jenis">JENIS TAS</label>
+            <select name="jenis" id="jenis">
+                <option value="satu">TOTE BAG</option>
+                <option value="dua">BACKPACK</option>
+                <option value="tiga">SLING BAG</option>
+            </select>
+            <br><br>
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" 
+            placeholder="Email">
+            <br><br>
+
+            <label for="merek">MEREK TAS</label>
+            <input type="text" name="merek" id="merek">
+            <br><br>
+
+            
+            <label for="jk">ASURANSI TAMBAHAN</label>
+            <input type="radio" name="jk" id="ya"><label for="ya">YA</label>
+            <input type="radio" name="jk" id="tidak" value="ya"><label for="tidak">TIDAK</label>
+            <br><br>
+
+            <label for="catatan">CATATAN KHUSUS</label>
+            <input type="text" name="catatan" id="nama">
+            <br><br>
+            
+            <input type="submit" value="kirim">
+        </fieldset>
+    </form>
+</body>
+</html>
